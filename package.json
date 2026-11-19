@@ -6,7 +6,7 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
-    "build": "expo export --platform web"
+    "build": "expo export --platform web && node scripts/add-web-manifest.cjs"
   },
   "dependencies": {
     "expo": "~54.0.33",
